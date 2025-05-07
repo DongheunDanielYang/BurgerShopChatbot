@@ -1,0 +1,50 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "How are you?"],
+     "responses": ["Hello", "Hi", "Hi there","Hello how are you?"]
+    },
+
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "goodbye", "patterns": ["Bye", "See you", "Goodbye", "Catch you later"],
+        "responses": ["Take care!", "See you next time!", "Goodbye!"]},
+
+    {"tag": "order_coffee", "patterns": ["I want to order a coffee", "Can I get a coffee?", "I'd like a coffee", "Order coffee please"],
+        "responses": ["Sure, what kind of coffee would you like?", "Coming right up! What coffee?", "What type of coffee are you looking for?"]},
+
+    {"tag": "coffee_type", "patterns": ["Do you have cappuccino?", "Can I get a latte?", "What's in an Americano?", "Do you serve espresso?"],
+        "responses": ["Yes, we have all of those!", "We sure do! Would you like one?", "Absolutely, we serve cappuccino, latte, and more."]},
+
+    {"tag": "size_option", "patterns": ["Can I get a large?", "I want a medium", "What sizes do you have?", "Do you have small cups?"],
+        "responses": ["We have small, medium, and large.", "What size would you prefer?", "Large it is! Coming right up."]},
+
+    {"tag": "milk_option", "patterns": ["Can I get soy milk?", "Do you have almond milk?", "Lactose-free milk please", "What milk options do you have?"],
+        "responses": ["We offer soy, almond, oat, and regular milk.", "Sure! Which one do you prefer?", "Got it. Lactose-free it is."]},
+
+    {"tag": "pickup_time", "patterns": ["How long will it take?", "When can I pick up?", "Is my order ready?", "What time is pickup?"],
+        "responses": ["Pickup is usually ready in 5-10 minutes.", "We’ll notify you once it's ready.", "You can pick up in 10 minutes."]},
+
+    {"tag": "payment_option", "patterns": ["Can I pay by card?", "Do you accept cash?", "What payment methods do you take?", "Can I use Apple Pay?"],
+        "responses": ["Yes, we accept card, cash, and Apple Pay.", "All major payment methods are accepted.", "Absolutely, card or mobile payment is fine."]},
+
+    {"tag": "cancel_order", "patterns": ["I want to cancel my order", "Can I cancel?", "Never mind", "Cancel the coffee"],
+        "responses": ["Okay, your order is cancelled.", "No worries! It's been cancelled.", "Order cancelled successfully."]},
+
+    {"tag": "open_hours", "patterns": ["When do you open?", "What are your hours?", "Are you open now?", "Till when are you open?"],
+        "responses": ["We're open from 7 AM to 8 PM daily.", "We’re open every day from 7 to 8!", "Our hours are 7 AM - 8 PM."]},
+
+    {"tag": "location", "patterns": ["Where are you located?", "What's your address?", "Coffee shop location?", "Where can I find you?"],
+        "responses": ["We’re located at 123 Main Street.", "Our shop is on 5th Avenue.", "You can find us near Central Park."]},
+
+    {"tag": "order_status", "patterns": ["Is my coffee ready?", "Where is my order?", "What's the status?", "Track my order"],
+        "responses": ["Your order is being prepared.", "It’ll be ready in a few minutes.", "You can pick it up shortly."]},
+
+    {"tag": "menu", "patterns": ["Show me the menu", "What do you have?", "List of drinks please", "Menu options?"],
+        "responses": ["We have lattes, cappuccinos, Americanos, and more.", "Here’s our menu: Espresso, Latte, Cold Brew...", "Sure! What are you in the mood for?"]},
+
+    {"tag": "repeat_order", "patterns": ["Repeat my last order", "Same as yesterday", "Can I get my usual?", "Order the same again"],
+        "responses": ["Got it! Repeating your last order.", "Same order coming up!", "You got it — one usual coffee!"]} 
+]
+}
